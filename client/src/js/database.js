@@ -17,7 +17,8 @@ export const putDb = async (content) => {
   const db = await initdb("jate", 1);
   const tx = db.transaction('jate', 'readwrite');
   const store = tx.objectStore("jate");
-  
+  store.put({ jate: content });
+  await tx.complete();
 };
 
 // TODO: Add logic for a method that gets all the content from the database
