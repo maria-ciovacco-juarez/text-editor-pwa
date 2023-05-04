@@ -21,12 +21,12 @@ export const putDb = async (content) => {
   await tx.complete();
 };
 
-// TODO: Add logic for a method that gets all the content from the database
+//TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
-  const db = await initdb("jate", 1);
-  const tx = db.transaction('jate', 'readonly');
-  const store = tx.objectStore('jate');
-  return store.getAll();
+  const jateDb = await openDB('jate', 1);
+  const transaction = jateDb.transaction('jate', 'readonly');
+  const store = transaction.objectStore('jate');
+  return await store.get(1);
 };
 
 initdb();
