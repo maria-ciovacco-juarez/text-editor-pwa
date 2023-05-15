@@ -37,5 +37,6 @@
   "display": "standalone",
   "start_url": "/",
   "description": "This is a application to take notes.",
-  "background_color": "#272822"
+  "background_color": "#272822",
+  "theme_color": "#225ca3"
 }
