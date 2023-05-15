@@ -1,7 +1,7 @@
 # text-editor-pwa
 Challenge 19
 
-##Description
+## Description
 
 With this challenge I lunched a text editor called JATE that is deloyed through Heroku. This application can work online as well as locally. 
 
