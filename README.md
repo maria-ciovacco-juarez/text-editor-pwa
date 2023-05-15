@@ -13,7 +13,7 @@ It will look like this:
 
 <img width="1495" alt="Screen Shot 2023-05-15 at 9 56 51 AM" src="https://github.com/maria-ciovacco-juarez/text-editor-pwa/assets/119270869/6df1aa2f-8d65-4a5c-8f67-76c512512581">
 
-You can type whatever text you want and click away from the DOm to make it save. Click refresh to see it's still there. Not clicking away from the DOM will not save any changes, so if you click refresh without doing so, it'll all go away.
+You can type whatever text you want and click away from the DOM to make it save. Click refresh to see it's still there. Not clicking away from the DOM will not save any changes, so if you click refresh without doing so, it'll all go away.
 
 Watch this video for a proper demonstration on usage as well as installation --> https://watch.screencastify.com/v/h5H26CskN3X1Tpfr7gSz
 
